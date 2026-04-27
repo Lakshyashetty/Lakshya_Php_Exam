@@ -64,6 +64,17 @@ else{
                 background-position: 0% 50%;
             }
         }
+         .container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+            
+        }
         </style>
         
     </head>
