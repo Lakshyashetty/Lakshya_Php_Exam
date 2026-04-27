@@ -3,15 +3,16 @@ include 'db.php';
 if ($_SERVER["REQUEST_METHOD"]==="POST") {
     $name=$_POST["name"];
     $email=$_POST["email"];
+     if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
+        echo "</script>alert('Email is invalid') </script> ";
+    }
     $pass=password_hash($_POST["pass"],PASSWORD_DEFAULT);
     $sql=$conn->prepare("insert into user(name,email,password) values (?,?,?)");
     $sql->bind_param("sss",$name,$email,$pass);
     if ($sql->execute()) {
         header("Location:login.php");
     }
-    // if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
-        
-    // }
+   
 }
 
 ?>

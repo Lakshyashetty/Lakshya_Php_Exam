@@ -157,8 +157,8 @@ include 'db.php';
                     alt="First slide"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Title</h3>
-                    <p>Description</p>
+                    <h3>Idli </h3>
+                    
                 </div>
             </div>
             <div class="carousel-item">
@@ -179,8 +179,8 @@ include 'db.php';
                     alt="Third slide"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Title</h3>
-                    <p>Description</p>
+                    <h3>Biryani</h3>
+                   
                 </div>
             </div>
         </div>
