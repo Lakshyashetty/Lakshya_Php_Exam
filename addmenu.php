@@ -36,26 +36,26 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
             crossorigin="anonymous"
         />
         <style>
-            .table tbody tr:hover {
-            background: rgba(255, 255, 255, 0.28);
-            transform: scale(1.01);
+             body {
+            min-height: 100vh;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #5f2c82, #49a09d, #ff6a88);
+            background-size: 400% 400%;
+            animation: bodyMove 12s ease infinite;
+            position: relative;
         }
 
-        .table tbody td {
-            color: black;
-            border-color: rgba(255, 255, 255, 0.12);
-            padding: 14px 10px;
-            transition: 0.35s ease;
+        @keyframes bodyMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
-
-        .table tbody td:hover {
-            background: rgba(255, 255, 255, 0.22);
-            color: #ffe082;
-            transform: translateY(-2px) scale(1.02);
-            font-weight:bold;
-        }
-
-
         </style>
     </head>
 

@@ -32,38 +32,7 @@ include 'db.php';
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
-            .card-img-top{
-                height:200px;
-                
-            }
-            .card {
-    border-radius: 20px;
-    overflow: hidden;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.2);
-    color: white;
-    transition: all 0.4s ease;
-}
 
-/* hover effect */
-.card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
-}
-
-.card:hover .card-img-top {
-    transform: scale(1.1);
-}
-
-/* text */
-.card-title {
-    font-weight: bold;
-}
-
-.card small {
-    color: #ddd;
-}
         </style>
     </head>
 
