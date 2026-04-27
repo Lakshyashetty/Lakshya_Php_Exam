@@ -17,7 +17,7 @@ include 'db.php';
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous"
         />
-        <style>
+        
              <style>
                 body {
     min-height: 100vh;
@@ -26,7 +26,6 @@ include 'db.php';
     animation: gradientMove 12s ease infinite;
 }
 
-/* background animation */
 @keyframes gradientMove {
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
