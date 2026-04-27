@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
             font-weight:bold;
         }
 
-        
+
         </style>
     </head>
 
@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
             <a
                 name=""
                 id=""
-                class="btn btn-primary"
+                class="btn btn-primary mx-3"
                 href="pdf.php"
                 role="button"
                 >ExportPdf</a
